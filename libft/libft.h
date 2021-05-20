@@ -6,7 +6,7 @@
 /*   By: ymarji <ymarji@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/19 09:55:52 by ymarji            #+#    #+#             */
-/*   Updated: 2019/11/07 10:13:14 by ymarji           ###   ########.fr       */
+/*   Updated: 2021/05/19 13:28:35 by ymarji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ int				ft_toupper(int c);
 int				ft_tolower(int c);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 int				ft_lstsize(t_list *lst);
+int				ft_strcmp(const char *s1, const char *s2);
 
 char			*ft_strchr(const char *s, int c);
 char			*ft_strrchr(const char *s, int c);
@@ -71,4 +72,6 @@ t_list			*ft_lstnew(void *content);
 t_list			*ft_lstlast(t_list *lst);
 t_list			*ft_lstmap(t_list *lst, void *(*f)(void *),
 		void (*del)(void *));
+
+long long		ft_atoi_l(const char *str);
 #endif

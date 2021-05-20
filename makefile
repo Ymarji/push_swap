@@ -1,7 +1,8 @@
 NAME = push_swap
 LIB = push_swap.a
 SRC =./push_swap.c \
-	./ls_utile.c
+	./ls_utile.c \
+	./operation.c
 
 LIBFT = ./libft/libft.a
 
